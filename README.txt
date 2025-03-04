@@ -15,6 +15,9 @@ test.py can be used to test the effectiveness of the new GPT-2 model after train
 Simply run the file, and it will output GPT-2's result using the new data
 (in addition to its pretrained data).
 
+Make sure to run train.py first, to create the new GPT model, then run test.py with
+any desired question written in the prompt question.
+
 Notably, for short questions like "Q: What is 2 + 2? A:", it will likely produce many
 answers like "A: 4. B: ...", due to the nature of GPT-2's pretraining forcing it to
 answer a question as completely as possible. This may be avoided by reducing
