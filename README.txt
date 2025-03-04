@@ -32,4 +32,7 @@ does not make a significant difference to this. Performance can be improved by i
 the epochs in "num_train_epochs" (training_args), but this is minimal, as the value is
 already quite high relative to the small dataset. A completely different pretrained model
 would be necessary to completely avoid this, but those usually aren't free and for the purposes
-of this experiment are not necessary.
+of this experiment are not necessary. Nevertheless, I have experimented with providing the model 
+other kinds of prompts more suitable for an LLM, like simple essay writing, and it produced
+satisfactory results after some parameter adjusting. Hence, even the current model can be quite useful
+when trained correctly.
