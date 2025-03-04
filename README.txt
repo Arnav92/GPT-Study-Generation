@@ -1,14 +1,15 @@
 This is an experiment to create a fine-tuned GPT-2 model for personalized study generation.
 
+The python files provided would need to be copy-pasted into a new project, and the libraries in the files need to be installed.
+I am working on creating a repository with all of the files already provided. However, this is 15+ GB, so this may not happen
+anytime soon. For now, you can create a project in your desired IDE (I used Intellij as the IDE) and download the libraries that error in the python files.
+
 train.py has a small dataset of math problems as an example to help it learn,
 but it could very easily be adjusted to include new data. train.py focuses on
 training GPT-2's pretrained data. Notably, each run of train.py overwrites the previous
 data in the "gpt2-math-generator" folder to create a "fresh" start with each run of train.py.
 This can be avoided by simply deleting the lines 3 lines below the "Delete old folder so we start from scratch"
 comment.
-
-The provided "gpt2-math-generator" is the model after running an epoch of 20.
-train.py can be run again with a different epoch to get a different model.
 
 test.py can be used to test the effectiveness of the new GPT-2 model after training it.
 Simply run the file, and it will output GPT-2's result using the new data
