@@ -1,8 +1,8 @@
 This is an experiment to create a fine-tuned GPT-2 model for personalized study generation.
 
 The python files provided would need to be copy-pasted into a new project, and the libraries in the files need to be installed.
-I am working on creating a repository with all of the files already provided. However, this is 15+ GB, so this may not happen
-anytime soon. For now, you can create a project in your desired IDE (I used Intellij as the IDE) and download the libraries that error in the python files.
+I am working on creating a repository with all of the files already provided. However, this is 15+ GB, so this may not happen anytime soon. 
+For now, you can create a project in your desired IDE (I used Intellij as the IDE) and download the libraries that error in the python files.
 
 train.py has a small dataset of math problems as an example to help it learn,
 but it could very easily be adjusted to include new data. train.py focuses on
